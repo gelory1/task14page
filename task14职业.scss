@@ -1,0 +1,13 @@
+@import "reset";
+@import "header-tel";
+@import "header";
+.header-logo{
+    width: 4em;
+    padding-bottom: 2em;
+    position: absolute;
+    left: 15vw;
+    top: 1em;
+    @include bkgimg("images/战略合作企业_03.png");
+}
+@import "cont3";
+@import "footer";

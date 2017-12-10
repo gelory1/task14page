@@ -1,0 +1,25 @@
+$banner2-color: rgb(241,167,80);
+.banner2{
+    width: 100%;
+    height: 20vh;
+    background:url("images/战略合作企业_07.png")no-repeat center $banner2-color;
+    color: $whitecolor;
+}
+.banner2-text-top{
+    padding-top:5vh;
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+}
+.banner2-text-left{
+    width: 100%;
+    text-align: center;
+    font-size: 1.1vw;
+    position: relative;
+}
+.banner2-text-right{
+    position: absolute;
+    right: 32vw;
+    bottom: 0;
+    font-size: 3vw;
+}

@@ -1,0 +1,47 @@
+$themecolor: rgb(41,176,120);
+$whitecolor: #FFFFFF;
+@mixin bkg-img($url){
+    background: url($url) no-repeat center;
+}
+$textcolor: rgb(153,153,153);
+$bkgcolor: rgb(250,250,250);
+$whitecolor: rgb(255,255,255);
+$bordercolor: rgb(230,230,230);
+@mixin flexstyle($justify-cont){
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: $justify-cont;
+    align-items: center;
+}
+@mixin bkgimg($url){
+    background: url($url) no-repeat center;
+}
+@mixin bkg($bkgclass){
+    .#{$bkgclass}-left,.#{$bkgclass}-right,.#{$bkgclass}-min{
+        width: 1.5em;
+        padding-bottom: 1.5em;
+        border-radius: 50%;
+        border: thin solid $themecolor;
+    }
+    .#{$bkgclass}-left{
+        @include bkgimg("images/技能树首页_03.png");
+    }
+    .#{$bkgclass}-min{
+        @include bkgimg("images/技能树首页_05.png");
+    }
+    .#{$bkgclass}-right{
+        @include bkgimg("images/技能树首页_07.png");
+    }
+}
+.header-tel{
+    width: 100%;
+    padding: 1vh 15vw;
+    background-color: $whitecolor;
+    @include flexstyle(space-between);
+    color: $themecolor;
+}
+@include bkg("header-logo");
+.header-tel-right{
+    width: 6em;
+    @include flexstyle(space-between);
+}

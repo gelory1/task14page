@@ -1,0 +1,181 @@
+
+.cont{
+    background-color: $bkgcolor;
+}
+.row{
+    width: 100%;
+    @include flexstyle(space-between);
+    text-align: center;
+    padding: 0 10vw;
+}
+.left-logo,.min-left-logo,.min-right-logo{
+    width: 2em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+}
+.left-logo{
+    @include bkg-img("images/技能树首页_13.png");
+}
+.min-left-logo{
+    @include bkg-img("images/技能树首页_19.png");
+}
+.min-right-logo{
+    @include bkg-img("images/技能树首页_16.png");
+}
+.row-left,.row-min-left,.row-min-right{
+    padding-top: 6vh;
+    width: 15vw;
+    height: 10vh;
+    text-align: left;
+}
+.text-min{
+    text-align: center;
+    margin: 4vh 0;
+    font-weight: 800;
+}
+.text-bottom{
+    color: $textcolor;
+}
+.row-right{
+    padding-top: 25vh;
+}
+.head-img{
+    width: 1em;
+    padding-bottom: 1em;
+    @include bkg-img("images/技能树首页_24.png");
+}
+.head-img-box{
+    @include flexstyle(flex-start);
+    padding: 1vh 1vw;
+}
+.head-img-text{
+    padding-left: 1vw;
+    color: $themecolor;
+}
+.row-right-text{
+    color: $textcolor;
+    text-align: left;
+    padding-left: 1vw;
+}
+.hts-titile,.stu-titile,.co-titile,.contract-title{
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    padding: 10vw 0 5vw 0;
+}
+.hts-figure{
+    text-align: center;
+    width: 3em;
+    padding-top: .8em;
+    height: 3em;
+    border-radius: 50%;
+    background-color: $whitecolor;
+    border: thin solid $bordercolor;
+    color: $themecolor;
+}
+.hts-next-img{
+    width: 2em;
+    padding: 2em;
+    @include bkg-img("images/技能树首页_29.png");
+}
+.hts-step-box{
+    width: 100%;
+    padding: 2vh 10vw;
+    @include flexstyle(center);
+}
+.hts-text{
+    width: 13vw;
+    padding: 0 1vw;
+    color: $textcolor;
+}
+.stu-inf-box{
+    width: 100%;
+    padding:0 10vw;
+    @include flexstyle(space-between);
+    text-align: center;
+}
+.stu-info{
+    background-color: $whitecolor;
+    border: thin solid $bordercolor;
+    padding:1vh 1vw;
+}
+.stu-img-left,.stu-img-minleft,.stu-img-minright,.stu-img-right{
+    width: 4em;
+    padding-bottom: 4em;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.stu-img-left{
+    @include bkg-img("images/技能树首页_33.png");
+}
+.stu-img-minleft{
+    @include bkg-img("images/技能树首页_36.png");
+}
+.stu-img-minright{
+    @include bkg-img("images/技能树首页_39.png");
+}
+.stu-img-right{
+    @include bkg-img("images/技能树首页_41.png");
+}
+.stu-name{
+    font-weight: 800;
+    padding: 2vh 0;
+}
+.stu-intro{
+    width: 15vw;
+    text-align: left;
+    color: $textcolor;
+}
+.co-logo-box{
+    margin: 0 10vw;
+    @include flexstyle(space-between);
+    background-color: $whitecolor;
+}
+.co-logo1,.co-logo2,.co-logo3,.co-logo4,.co-logo5{
+    width: 15.9vw;
+    padding-bottom: 12vw;
+    background-color: $whitecolor;
+}
+.co-logo1{
+    @include bkg-img("images/技能树首页_51.png");
+}
+.co-logo2{
+    @include bkg-img("images/技能树首页_54.png");
+}
+.co-logo3{
+    @include bkg-img("images/技能树首页_58.png");
+}
+.co-logo4{
+    @include bkg-img("images/技能树首页_60.png");
+}
+.co-logo5{
+    @include bkg-img("images/技能树首页_63.png");
+}
+.stu-circle-box{
+    width: 100%;
+    padding-top: 2vh;
+    @include flexstyle(center);
+}
+.circle-select,.circle{
+    margin: .1vw;
+    width: 1em;
+    padding-bottom: 1em;
+    border-radius: 50%;
+}
+.circle{
+    background-color: $whitecolor;
+    border: thin solid $bordercolor;
+}
+.circle-select{
+    background-color: $themecolor;
+}
+.contract-text-box{
+    width: 100%;
+    padding: 0 10vw;
+    @include flexstyle(space-between);
+    color: $textcolor;
+    padding-bottom: 1vh;
+}
+.contract-text-select{
+    border-bottom: thin solid $themecolor;
+}

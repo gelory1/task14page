@@ -1,0 +1,78 @@
+$bkgcolor: rgb(250,250,250);
+.cont2{
+    width: 100%;
+    background-color: $bkgcolor;
+    padding-bottom: 10vh;
+}
+.cont2-title{
+    padding: 5vh 10vw;
+}
+.cont2-title-right{
+    color: $themecolor;
+}
+.cont2-box{
+    @include flexstyle(center);
+    align-items: flex-start;
+}
+.cont2-left{
+    width: 20vw;
+    text-align: center;
+    background-color: $whitecolor;
+    border: thin solid $bordercolor;
+    margin-right: 2vw;
+    font-size: .8vw;
+}
+.cont2-left-top{
+    padding: 2vh 0;
+    font-weight: 800;
+    border-bottom: thin solid $bordercolor;
+}
+.cont2-left-row{
+    @include flexstyle(center);
+    padding: 1vh 0;
+}
+.cont2-circle,.cont2-circle-select{
+    width: .8em;
+    padding-bottom: .8em;
+    border-radius: 50%;
+    border: thin solid $banner2-color;
+}
+.cont2-circle-select{
+    background-color: $banner2-color;
+}
+.cont2-row-text,.cont2-row-text-select{
+    width: 6em;
+    text-align: left;
+    padding-left: 1em;
+}
+.cont2-row-text-select{
+    color: $banner2-color;
+}
+.cont2-row-text{
+    color: $themecolor;
+}
+.cont2-right{
+    width: 50vw;
+    background-color: $whitecolor;
+    border: thin solid $bordercolor;
+    font-size: .8vw;
+    color: $textcolor;
+}
+.cont2-right-top{
+    width: 100%;
+    @include flexstyle(space-between);
+    border-bottom: thin solid $bordercolor;
+    padding: 2vh 5vw;
+}
+.cont2-right-img{
+    width: 60em;
+    padding-bottom: 8em;
+    @include bkgimg("images/战略合作企业_11.png");
+    margin-right: 1vw;
+}
+.cont2-right-bottom{
+    padding: 2vh 5vw;
+    &>p{
+        text-indent: 2vw;
+    }
+}

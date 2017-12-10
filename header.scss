@@ -1,0 +1,20 @@
+.header{
+    width: 100%;
+    background-color: $themecolor;
+    position: relative;
+    padding-bottom:  6.9vh;
+}
+.header-menu-box{
+    position: absolute;
+    right: 20vw;
+    top: 0;
+    width: 20em;
+    @include flexstyle(space-around);
+    color: $whitecolor;
+}
+.menu{
+    padding: 1em;
+}
+.select{
+    border-bottom: solid $whitecolor;
+}

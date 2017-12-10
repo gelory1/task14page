@@ -1,0 +1,421 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td,
+input, select, textarea, button {
+  margin: 0;
+  padding: 0; }
+
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset, img {
+  border: 0 none; }
+
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl, ul, ol, menu, li {
+  list-style: none; }
+
+/* 重置类表前导符号为onne,menu在HTML5中有效 */
+blockquote, q {
+  quotes: none; }
+
+/* 重置嵌套引用的引号类型 */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none; }
+
+/* 重置嵌套引用*/
+input, select, textarea, button {
+  vertical-align: middle; }
+
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer; }
+
+/* 重置表单button按钮效果 */
+body {
+  background: #fff; }
+
+/* 重置body 页面背景为白色 */
+body, th, td, input, select, textarea, button {
+  font-size: 12px;
+  line-height: 1;
+  color: #666; }
+
+/* 重置页面文字属性 */
+a {
+  color: #666;
+  text-decoration: none; }
+
+/* 重置链接a标签 */
+a:active, a:hover {
+  text-decoration: none; }
+
+/* 重置链接a标签的鼠标滑动效果 */
+address, caption, cite, code, dfn, em, var {
+  font-style: normal;
+  font-weight: normal; }
+
+/* 重置样式标签的样式 */
+caption {
+  display: none; }
+
+/* 重置表格标题为隐藏 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed; }
+
+/* 重置table属性 */
+img {
+  vertical-align: top; }
+
+/* 图片在当前行内的垂直位置 */
+/* 页面设置 */
+/* 取消a标签点击后的虚线框 */
+a {
+  outline: none; }
+
+/*清除浮动*/
+.clear {
+  clear: both; }
+
+/*清除浮动--推荐使用*/
+.clearfix:before, .clearfix:after {
+  content: '';
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.header-tel {
+  width: 100%;
+  padding: 1vh 15vw;
+  background-color: white;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  color: #29b078; }
+
+.header-logo-left, .header-logo-right, .header-logo-min {
+  width: 1.5em;
+  padding-bottom: 1.5em;
+  border-radius: 50%;
+  border: thin solid #29b078; }
+
+.header-logo-left {
+  background: url("images/技能树首页_03.png") no-repeat center; }
+
+.header-logo-min {
+  background: url("images/技能树首页_05.png") no-repeat center; }
+
+.header-logo-right {
+  background: url("images/技能树首页_07.png") no-repeat center; }
+
+.header-tel-right {
+  width: 6em;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center; }
+
+.header {
+  width: 100%;
+  background-color: #29b078;
+  position: relative;
+  padding-bottom: 6.9vh; }
+
+.header-menu-box {
+  position: absolute;
+  right: 20vw;
+  top: 0;
+  width: 20em;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items: center;
+  color: white; }
+
+.menu {
+  padding: 1em; }
+
+.select {
+  border-bottom: solid white; }
+
+.banner {
+  position: relative; }
+
+.carousel-inner {
+  width: 100%;
+  height: 35vw; }
+
+.carousel-control {
+  padding-top: 15vw; }
+
+.banner-text {
+  position: absolute;
+  top: 12vw;
+  right: 25vw;
+  color: white;
+  display: flex;
+  flex-flow: column; }
+
+.banner-text-top {
+  font-size: 2vw;
+  text-align: right; }
+
+.banner-text-bottom {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center; }
+
+.banner-bottom-left {
+  font-size: 4vw; }
+
+.banner-bottom-right {
+  font-size: 2.5vw;
+  line-height: 4vw; }
+
+.cont {
+  background-color: #fafafa; }
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 10vw; }
+
+.left-logo, .min-left-logo, .min-right-logo {
+  width: 2em;
+  padding-bottom: 2em;
+  margin: 0 auto; }
+
+.left-logo {
+  background: url("images/技能树首页_13.png") no-repeat center; }
+
+.min-left-logo {
+  background: url("images/技能树首页_19.png") no-repeat center; }
+
+.min-right-logo {
+  background: url("images/技能树首页_16.png") no-repeat center; }
+
+.row-left, .row-min-left, .row-min-right {
+  padding-top: 6vh;
+  width: 15vw;
+  height: 10vh;
+  text-align: left; }
+
+.text-min {
+  text-align: center;
+  margin: 4vh 0;
+  font-weight: 800; }
+
+.text-bottom {
+  color: #999999; }
+
+.row-right {
+  padding-top: 25vh; }
+
+.head-img {
+  width: 1em;
+  padding-bottom: 1em;
+  background: url("images/技能树首页_24.png") no-repeat center; }
+
+.head-img-box {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vh 1vw; }
+
+.head-img-text {
+  padding-left: 1vw;
+  color: #29b078; }
+
+.row-right-text {
+  color: #999999;
+  text-align: left;
+  padding-left: 1vw; }
+
+.hts-titile, .stu-titile, .co-titile, .contract-title {
+  width: 100%;
+  text-align: center;
+  font-weight: 800;
+  padding: 10vw 0 5vw 0; }
+
+.hts-figure {
+  text-align: center;
+  width: 3em;
+  padding-top: .8em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: white;
+  border: thin solid #e6e6e6;
+  color: #29b078; }
+
+.hts-next-img {
+  width: 2em;
+  padding: 2em;
+  background: url("images/技能树首页_29.png") no-repeat center; }
+
+.hts-step-box {
+  width: 100%;
+  padding: 2vh 10vw;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center; }
+
+.hts-text {
+  width: 13vw;
+  padding: 0 1vw;
+  color: #999999; }
+
+.stu-inf-box {
+  width: 100%;
+  padding: 0 10vw;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center; }
+
+.stu-info {
+  background-color: white;
+  border: thin solid #e6e6e6;
+  padding: 1vh 1vw; }
+
+.stu-img-left, .stu-img-minleft, .stu-img-minright, .stu-img-right {
+  width: 4em;
+  padding-bottom: 4em;
+  border-radius: 50%;
+  margin: 0 auto; }
+
+.stu-img-left {
+  background: url("images/技能树首页_33.png") no-repeat center; }
+
+.stu-img-minleft {
+  background: url("images/技能树首页_36.png") no-repeat center; }
+
+.stu-img-minright {
+  background: url("images/技能树首页_39.png") no-repeat center; }
+
+.stu-img-right {
+  background: url("images/技能树首页_41.png") no-repeat center; }
+
+.stu-name {
+  font-weight: 800;
+  padding: 2vh 0; }
+
+.stu-intro {
+  width: 15vw;
+  text-align: left;
+  color: #999999; }
+
+.co-logo-box {
+  margin: 0 10vw;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white; }
+
+.co-logo1, .co-logo2, .co-logo3, .co-logo4, .co-logo5 {
+  width: 15.9vw;
+  padding-bottom: 12vw;
+  background-color: white; }
+
+.co-logo1 {
+  background: url("images/技能树首页_51.png") no-repeat center; }
+
+.co-logo2 {
+  background: url("images/技能树首页_54.png") no-repeat center; }
+
+.co-logo3 {
+  background: url("images/技能树首页_58.png") no-repeat center; }
+
+.co-logo4 {
+  background: url("images/技能树首页_60.png") no-repeat center; }
+
+.co-logo5 {
+  background: url("images/技能树首页_63.png") no-repeat center; }
+
+.stu-circle-box {
+  width: 100%;
+  padding-top: 2vh;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center; }
+
+.circle-select, .circle {
+  margin: .1vw;
+  width: 1em;
+  padding-bottom: 1em;
+  border-radius: 50%; }
+
+.circle {
+  background-color: white;
+  border: thin solid #e6e6e6; }
+
+.circle-select {
+  background-color: #29b078; }
+
+.contract-text-box {
+  width: 100%;
+  padding: 0 10vw;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  color: #999999;
+  padding-bottom: 1vh; }
+
+.contract-text-select {
+  border-bottom: thin solid #29b078; }
+
+.footer {
+  width: 100%;
+  padding: 5vh 10vw;
+  background-color: #29b078;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+  color: white; }
+
+.footer-left, .footer-min, .footer-right {
+  height: 15vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between; }
+
+.footer-text-box {
+  width: 30em;
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-start;
+  align-items: center; }
+
+.footer-text {
+  padding-right: 2vw; }
+
+.footer-img {
+  width: 6em;
+  padding-bottom: 6em;
+  background: url("images/技能树首页_70.png") no-repeat center;
+  background-size: 100%; }
+
+.footer-copyright {
+  width: 100%;
+  background-color: #29b078;
+  text-align: center;
+  color: white;
+  font-size: .8em;
+  padding-bottom: 1vh; }
+
+/*# sourceMappingURL=task14-1.css.map */
