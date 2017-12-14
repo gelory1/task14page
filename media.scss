@@ -1,0 +1,81 @@
+@media screen and (max-width: 610px){
+    .header-tel-right,.header-tel-left,.header-logo{
+        display: none;
+    }
+    .tel-hide-box,.header-hide-img,.header-hide-dropbox{
+        display: block;
+    }
+    .header{
+        padding-bottom: 0;
+    }
+    .header-tel{
+        justify-content: flex-end;
+        padding: 1vh 5vw;
+    }
+    .row{
+        flex-flow: column;
+    }
+    .row-left,.row-min-left,.row-min-right,.row-right{
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+    }
+    .row-right{
+        @include flexstyle(space-between);
+        padding-top: 10vh;
+    }
+    .hts-next-img{
+        display: none;
+    }
+    .hts-step-box{
+        display: block;
+        float: left;
+        padding: 0 10vw;
+    }
+    .hts-text{
+        width: 85%;
+    }
+    .stu-inf-box{
+        flex-flow: column;
+    }
+    .stu-info{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .stu-intro{
+        width: 90%;
+        padding-left: 10%;
+    }
+    .co-logo-box{
+        flex-flow: column;
+    }
+    .co-logo1,.co-logo2,.co-logo3,.co-logo4,.co-logo5{
+        width: 100%;
+    }
+    .header-menu-box{
+        display: none;
+    }
+    .footer{
+        display: block;
+    }
+    .cont2-box,.cont2-right-top,.cont3-row{
+        flex-flow: column;
+    }
+    .cont2-left,.cont2-right{
+        width: 90%;
+        margin: 1vh 5vw;
+    }
+    .cont3-box{
+        width: 100%;
+        margin: 1vh 0;
+    }
+    .banner2-text-right{
+        right: 25vw;
+    }
+    .banner2{
+        background-size: 100%;
+    }
+    .cont3-ways{
+        font-size: .8vw;
+    }
+}
