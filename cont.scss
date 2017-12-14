@@ -83,6 +83,10 @@
     padding: 2vh 10vw;
     @include flexstyle(center);
 }
+.hts-step{
+    @include flexstyle(space-between);
+    margin: 1vh 0
+}
 .hts-text{
     width: 13vw;
     padding: 0 1vw;
@@ -171,11 +175,13 @@
 }
 .contract-text-box{
     width: 100%;
-    padding: 0 10vw;
+    padding: 1vh 10vw;
     @include flexstyle(space-between);
     color: $textcolor;
-    padding-bottom: 1vh;
 }
 .contract-text-select{
     border-bottom: thin solid $themecolor;
+}
+.contract-text,.contract-text-select{
+    padding-bottom: 1em;
 }

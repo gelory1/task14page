@@ -45,3 +45,6 @@ $bordercolor: rgb(230,230,230);
     width: 6em;
     @include flexstyle(space-between);
 }
+.tel-hide-box{
+    display: none;
+}

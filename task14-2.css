@@ -119,11 +119,14 @@ a {
   justify-content: space-between;
   align-items: center; }
 
+.tel-hide-box {
+  display: none; }
+
 .header {
   width: 100%;
   background-color: #29b078;
   position: relative;
-  padding-bottom: 6.9vh; }
+  padding-bottom: 3.6em; }
 
 .header-menu-box {
   position: absolute;
@@ -141,6 +144,42 @@ a {
 
 .select {
   border-bottom: solid white; }
+
+.header-hide-img {
+  display: none;
+  width: 10em;
+  margin-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 2.6em;
+  background: url("images/技能树首页_00.png") no-repeat center;
+  background-size: 100%; }
+
+.header-hide-dropbox {
+  display: none; }
+
+.header-hide-drop-down {
+  text-align: center;
+  color: white;
+  display: none; }
+
+.hide-menu {
+  background-color: #29b078;
+  padding: .5vh 0; }
+
+.header-hide-menu {
+  position: absolute;
+  width: 5vw;
+  height: 3.5vw;
+  border-top: .5vw solid #555555;
+  border-bottom: .5vw solid #555555;
+  background-color: #555555;
+  padding: 1vw 0;
+  background-clip: content-box;
+  top: 2vh;
+  right: 2vw; }
+
+.header-hide-dropbox:hover .header-hide-drop-down {
+  display: block; }
 
 .header-logo {
   width: 4em;
@@ -298,5 +337,88 @@ a {
   color: white;
   font-size: .8em;
   padding-bottom: 1vh; }
+
+@media screen and (max-width: 610px) {
+  .header-tel-right, .header-tel-left, .header-logo {
+    display: none; }
+
+  .tel-hide-box, .header-hide-img, .header-hide-dropbox {
+    display: block; }
+
+  .header {
+    padding-bottom: 0; }
+
+  .header-tel {
+    justify-content: flex-end;
+    padding: 1vh 5vw; }
+
+  .row {
+    flex-flow: column; }
+
+  .row-left, .row-min-left, .row-min-right, .row-right {
+    width: 100%;
+    text-align: center;
+    height: 20vh; }
+
+  .row-right {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10vh; }
+
+  .hts-next-img {
+    display: none; }
+
+  .hts-step-box {
+    display: block;
+    float: left;
+    padding: 0 10vw; }
+
+  .hts-text {
+    width: 85%; }
+
+  .stu-inf-box {
+    flex-flow: column; }
+
+  .stu-info {
+    width: 100%;
+    margin-bottom: 5vh; }
+
+  .stu-intro {
+    width: 90%;
+    padding-left: 10%; }
+
+  .co-logo-box {
+    flex-flow: column; }
+
+  .co-logo1, .co-logo2, .co-logo3, .co-logo4, .co-logo5 {
+    width: 100%; }
+
+  .header-menu-box {
+    display: none; }
+
+  .footer {
+    display: block; }
+
+  .cont2-box, .cont2-right-top, .cont3-row {
+    flex-flow: column; }
+
+  .cont2-left, .cont2-right {
+    width: 90%;
+    margin: 1vh 5vw; }
+
+  .cont3-box {
+    width: 100%;
+    margin: 1vh 0; }
+
+  .banner2-text-right {
+    right: 25vw; }
+
+  .banner2 {
+    background-size: 100%; }
+
+  .cont3-ways {
+    font-size: .8vw; } }
 
 /*# sourceMappingURL=task14-2.css.map */

@@ -2,7 +2,7 @@
     width: 100%;
     background-color: $themecolor;
     position: relative;
-    padding-bottom:  6.9vh;
+    padding-bottom: 3.6em;
 }
 .header-menu-box{
     position: absolute;
@@ -17,4 +17,41 @@
 }
 .select{
     border-bottom: solid $whitecolor;
+}
+
+.header-hide-img{
+    display: none;
+    width: 10em;
+    margin-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 2.6em;
+    @include bkgimg("images/技能树首页_00.png");
+    background-size: 100%;
+}
+.header-hide-dropbox{
+    display: none;
+}
+.header-hide-drop-down{
+    text-align: center;
+    color: $whitecolor;
+    display: none;
+}
+.hide-menu{
+    background-color: $themecolor;
+    padding: .5vh 0;
+}
+.header-hide-menu{
+    position: absolute;
+    width: 5vw;
+    height: 3.5vw;
+    border-top: .5vw solid #555555;
+    border-bottom:.5vw solid #555555;
+    background-color: #555555;
+    padding: 1vw 0;
+    background-clip:content-box;
+    top: 2vh;
+    right: 2vw;
+}
+.header-hide-dropbox:hover .header-hide-drop-down{
+    display: block;
 }
